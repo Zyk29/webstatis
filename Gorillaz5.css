@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Sans+JP&family=Poppins&family=Yuji+Hentaigana+Akari&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    list-style: none;
+    text-decoration: none;
+    background-image: url(https://i.pinimg.com/originals/5e/a2/a5/5ea2a556835276e20a6942d5871677b4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 2%;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    /* background-color: ; */
+}
+
+header .logo {
+    color: red;
+    font-size: 20px;
+}
+
+.top-nav {
+    list-style: none;
+    text-decoration: none;
+    cursor: crosshair;
+    padding: 20px;
+}
+
+.top-nav a {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: grey;
+    /* position: fixed; */
+}
+
+.image-background {
+    /* background-image: url(https://i.pinimg.com/originals/5e/a2/a5/5ea2a556835276e20a6942d5871677b4.gif); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-image {
+    padding: 15%;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.op-chapter {
+    background-color: lightgray;
+    height: 100vh;
+}
