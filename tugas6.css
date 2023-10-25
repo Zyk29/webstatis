@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Sans+JP&family=Poppins&family=Yuji+Hentaigana+Akari&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-align: justify;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/2b/37/07/2b3707462cc0db6b11da7661ec1e2284.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pp {
+    background-color: antiquewhite;
+    display: flex;
+    padding: 20px;
+}
+
+.pp h1 {
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+
+.container {
+}
+
+.head {
+    width: 600px;
+    margin: auto;
+    outline-style: groove;
+    background-color: aliceblue;
+}
+
+.judul {
+    margin: 2px 0 0 5px;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+
+.navbar {
+    margin: -5px 0 5px 5px;
+}
+
+.navbar a {
+    padding: 5px;
+}
+
+.bsi {
+    width: 600px;
+    margin: 20px auto;
+    outline-style: groove;
+    background-color: aliceblue;
+}
+
+.img {
+    background-image: url(https://wallpapercave.com/wp/wp3248343.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    outline-style: groove;
+    outline-color: palegreen;
+    outline-width: 3px;
+}
+
+.bs {
+    width: 600px;
+    margin: 20px auto;
+    outline-style: groove;
+    background-color: aliceblue;
+}
+
+.konten {
+    margin: 5px;
+    text-align: justify;
+}
+
+.penulis p{
+    margin-top: -18px;
+}
+
+.penulis a {
+    color: red;
+}
+
+.bd {
+    width: 600px;
+    margin: 20px auto;
+    outline-style: groove;
+    background-color: aliceblue;
+}
+
+.member {
+    padding: 0 0 2% 5px;
+}
+
+.penulis h2 {
+    padding: 5px;
+} 
+
+.konten p {
+    padding: 5px;
+}
+
+.bt {
+    width: 600px;
+    margin: 20px auto;
+    outline-style: groove;
+    background-color: aliceblue;
+}
+
+.albums {
+    /* padding: 5px; */
+} 
+
+.penulis h2 {
+    margin: 0 0 3% 5px;
+}
+
+.isi-konten {
+    margin: 0 0 3% 5px;
+}
+
+.be {
+    width: 600px;
+    margin: 20px auto;
+    outline-style: groove;
+    background-color: aliceblue;
+}
+
+.prduct {
+    margin: 5px;
+}
+
+.pj {
+    margin: 5% 0 3% 5px;
+}
+
+.pji table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+    margin: -20px 0 0 10px;
+}
+
+.pji tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.pji th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
+
+.pji tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.ft {
+    width: 600px;
+    margin: 20px auto;
+    outline-style: groove;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.footer h1 {
+    background-color: antiquewhite;
+    text-align: center;
+}
