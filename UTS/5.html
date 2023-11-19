@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style> 
+        * {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .contact-person{
+            width: 100%;
+            height: 100vh;
+        }
+        
+    
+    .mySlides image{
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid red;
+    }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+        .contact-person {
+            background-color: antiquewhite;
+        }
+        .form-reg {
+            height: 100vh;
+            width: 60%;
+            margin: auto;
+            line-height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (max-width: 768px) {
+            .form-reg{
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="icon/images" href="https://render.fineartamerica.com/images/rendered/default/poster/8/8/break/images/artworkimages/medium/3/5-gorillaz-band-special-design-logo-birch-twigley.jpg">
+    <!-- Font Goggle -->
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Sans+JP&family=Poppins&family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+    <!-- Icon Box -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="1.css">
+    <!-- JS -->
+    <script src="2.js" defer></script>
+    <title>Setengah Jam Kopi</title>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar-nav">
+        <div class="setkop">
+            <div class="logo">
+                <a href="#Home">Setengah Jam Kopi</a>
+            </div>
+            <ul class="navbar">
+                <li><a href="3.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Store</a></li>
+                <div id="clock"></div>
+                <div class="bx bxl-instagram" id="medsos"></div>
+                <div class="bx bxl-twitter" id="medsos"></div>
+                <div class="bx bxl-twitch" id="medsos"></div>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+<!-- KONTEN -->
+    <main id="contact">
+        <section class="video-loop">
+            <div class="slideshow-container">
+    
+                <div class="mySlides fade">
+                  <img src="asset/foto 3.jpg" style="width:100%; margin: 0 auto; height: 60vh; ">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="asset/foto 2.jpg" style="width:100%; margin: 0 auto; height: 60vh;">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="asset/foto 4.jpg" style="width:100%; margin: 0 auto; height: 60vh;">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </section>
+            <div class="form">
+                <div class="form-reg">
+                    <div class="tittle">
+                        <h2>Kontak Informasi</h2>
+                        <h2><Address>Jl. R Pmd No.8, RT.7/RW.11, Cipulir, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12230 </Address></h2>
+                        <h2>NO : +628 828 0769 4326 (Rafa)</h2>
+                        <h2>Email : rafadebot11@gmail.com</h2>
+                        <h2>website : Zyk29.github.com</h2>
+                    </div>
+                    <div class="reg-form">
+                        <form action="">
+                            <label for="">Username</label>
+                            <input type="email" value="Username" required>
+                            <label for="">Password</label>
+                            <input type="password" value="password" required>
+                            <label for="Saran">Saran & Kritik</label>
+                            <input type="text" name="Saran" id="saran">
+                            <label for=""></label>
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- END -->
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="medsos">
+            <div class="ig-wa-twiter">
+                <h3>Narahubung</h3>
+                <p>+628 828 0769 4326 (Rafa)</p>
+                <div class="jam-buka">
+                    <h4>Senin 15.00 - 24.00</h4>
+                </div>
+                <div class="jam-buka">
+                    <h4>Selasa 15.00 - 24.00</h4>
+                </div>
+                <div class="jam-buka">
+                    <h4>Rabu 15.00 - 24.00</h4>
+                </div>
+                <div class="jam-buka">
+                    <h4>Kamis 15.00 - 24.00</h4>
+                </div>
+                <div class="jam-buka">
+                    <h4>Jumat 15.00 - 24.00</h4>
+                </div>
+                <div class="medsos-teks">
+                </div>
+            </div>
+            <div class="medsos-teks">
+                <div class="icon">
+                    <a href="https://www.instagram.com/setengahjamkopi/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><div class="bx bxl-instagram" id="ig"></div></a>
+                    <a href="https://www.instagram.com/setengahjamkopi/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><div class="bx bxl-facebook" id="fb"></div></a>
+                    <a href="https://www.instagram.com/setengahjamkopi/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><div class="bx bxl-twitter" id="tw"></div></a>
+                    <a href="https://www.instagram.com/setengahjamkopi/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><div class="bx bxl-whatsapp" id="wa"></div></a>
+                </div>
+                <div class="form">
+                    <form action=""> 
+                        <label for="email">Masukan Email</label>
+                        <input type="email" id="email" name="email">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1983.093834396813!2d106.7735311599818!3d-6.238978693274256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1700379539132!5m2!1sen!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="credit">
+            <h5>Created By Rafa Bimo Satriyo ©2023</h5>
+        </div>
+    </footer>
+    <!-- END -->
+    <script src="2.js"></script>
+</body>
+</html>
